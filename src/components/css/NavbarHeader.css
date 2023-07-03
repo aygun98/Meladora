@@ -1,0 +1,36 @@
+
+.navbar-header{
+    position: relative;
+    z-index: 2;
+    display: flex;
+   justify-content: space-between;
+   padding: 20px 0;
+   border-bottom: 3px solid white;
+}
+
+.navbar-header-left a{
+    text-decoration: none;
+    font-family: var(--fonts);
+  color: white;
+  font-size: 19px;
+}
+.navbar-header-left-icon{
+    color: var(--primary1);
+}
+.navbar-header-right{
+    display: flex;
+    gap: 9px;
+}
+.navbar-header-right-icon{
+    color: var(--primary1);
+    font-size: 25px;
+    cursor: pointer;
+}
+.navbar-header-right-icon:hover{
+    color: white;
+}
+@media (max-width:768px){
+    .navbar-header{
+        display: none;
+    }
+}

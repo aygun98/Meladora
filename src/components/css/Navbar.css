@@ -1,0 +1,58 @@
+.navbar-conatiner{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.navbar-brand{
+    background-image: url(https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688380863/logo_fjtoqm.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 114px;
+   height: 45px;
+   display: inline-block;
+   object-fit: cover;
+}
+.nav-link{
+    color: white;
+    font-weight: 700;
+    transition: none;
+}
+.nav-link:hover, .nav-link:focus{
+    background-color: var(--primary1);
+    color: white;
+    border-radius: 10px;
+    
+
+}
+.nav-links-contain{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.searchimg{
+    color: var(--primary1);
+    font-size: 35px;
+    cursor: pointer;
+
+}
+.fabars-icon{
+    color: var(--primary1);
+    display: none;
+    font-size: 33px;
+}
+
+
+@media (max-width:1200px) {
+    .fabars-icon{
+        display: inline-block;
+    }
+    .nav{
+        display: none;
+    }
+    .nav-links-contain{
+        gap: 10px;
+    }
+}

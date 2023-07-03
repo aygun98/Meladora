@@ -1,0 +1,19 @@
+.header-container{
+    position: relative;
+    height: 430px;
+    background-image: url(https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688381367/headerbackimg_fxkagl.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.header-container::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.541);
+    z-index: 1 !important;
+}
