@@ -1,0 +1,49 @@
+
+.offcanvas{
+    background-color: var(--primary2);
+}
+
+.offcanvas-kontainer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.offcanvas-logo{
+    background-image: url(https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688380863/logo_fjtoqm.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 114px;
+   height: 45px;
+   display: inline-block;
+   object-fit: cover;
+}
+.btn-close{
+    background-color: var(--primary1);
+    font-weight: 700;
+}
+.offcanvas-body{
+    padding-top: 40px;
+}
+.offcanvas-nav-item{
+    list-style: none;
+}
+.offcanvas-nav-item a{
+    text-decoration: none;
+    color: var(--primary1);
+    font-weight: 500;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    /* font-size: 16px; */
+}
+.offcanvas-nav-item a:hover{
+    background-color: var(--primary1);
+    color: white;
+
+}

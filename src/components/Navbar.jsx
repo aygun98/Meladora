@@ -1,37 +1,41 @@
 import React from 'react'
 import './css/Navbar.css'
+import Offcanvas from './Offcanvas'
+import OffcanvasSearch from './OffcanvasSearch'
 import { FaBars } from 'react-icons/fa'
 import { BiSearchAlt } from 'react-icons/bi'
 
 const Navbar = () => {
     return (
         <nav className='container navbar-conatiner'>
-            <a class="navbar-brand" href="#"></a>
+            <a className="navbar-brand" href="#"></a>
             <div className='nav-links-contain'>
-            <FaBars className='fabars-icon' />
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="#">Biz kimik?</a>
+            <FaBars className='fabars-icon' data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"/>
+            <Offcanvas/>
+            <ul className="nav justify-content-end">
+                <li className="nav-item">
+                    <a className="nav-link " aria-current="page" href="#">Biz kimik?</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Bağlarımız</a>
+                <li className="nav-item">
+                    <a className="nav-link" href="#">Bağlarımız</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Məhsullarımız</a>
+                <li className="nav-item">
+                    <a className="nav-link" href="#">Məhsullarımız</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Xidmətlərimiz </a>
+                <li className="nav-item">
+                    <a className="nav-link" href="#">Xidmətlərimiz </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Sosial məsuliyyət</a>
+                <li className="nav-item">
+                    <a className="nav-link" href="#">Sosial məsuliyyət</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Əlaqə</a>
+                <li className="nav-item">
+                    <a className="nav-link" href="#">Əlaqə</a>
                 </li>
 
             </ul>
 
-            <BiSearchAlt className='searchimg' />
+            <BiSearchAlt className='searchimg'  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"  />
+            <OffcanvasSearch/>
             </div>
         </nav>
     )

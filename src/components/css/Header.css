@@ -1,6 +1,6 @@
 .header-container{
     position: relative;
-    height: 430px;
+    height: 510px;
     background-image: url(https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688381367/headerbackimg_fxkagl.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -14,6 +14,6 @@
     left: 0;
     top: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.541);
+    background-color: rgba(0, 0, 0, .6);
     z-index: 1 !important;
 }

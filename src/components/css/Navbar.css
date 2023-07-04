@@ -18,8 +18,9 @@
 }
 .nav-link{
     color: white;
-    font-weight: 700;
+    font-weight: 600;
     transition: none;
+    margin-right: 5px;
 }
 .nav-link:hover, .nav-link:focus{
     background-color: var(--primary1);
@@ -54,5 +55,10 @@
     }
     .nav-links-contain{
         gap: 10px;
+    }
+}
+@media (max-width:576px) {
+    .navbar-conatiner{
+        padding: 20px 20px;
     }
 }
