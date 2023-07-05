@@ -5,13 +5,14 @@ import OffcanvasSearch from './OffcanvasSearch'
 import { FaBars } from 'react-icons/fa'
 import { BiSearchAlt } from 'react-icons/bi'
 
-const Navbar = () => {
+const Navbar = ( {handleOpenMenu, handleOpenSearch}) => {  
+    
     return (
         <nav className='container navbar-conatiner'>
             <a className="navbar-brand" href="#"></a>
             <div className='nav-links-contain'>
-            <FaBars className='fabars-icon' data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"/>
-            <Offcanvas/>
+            <button className='button-fabars-icon' onClick={handleOpenMenu}><FaBars  className='fabars-icon' data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"/></button>
+            {/* <Offcanvas /> */}
             <ul className="nav justify-content-end">
                 <li className="nav-item">
                     <a className="nav-link " aria-current="page" href="#">Biz kimik?</a>
@@ -34,8 +35,8 @@ const Navbar = () => {
 
             </ul>
 
-            <BiSearchAlt className='searchimg'  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"  />
-            <OffcanvasSearch/>
+            <BiSearchAlt onClick={handleOpenSearch}  className='searchimg'  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"  />
+            {/* <OffcanvasSearch/> */}
             </div>
         </nav>
     )

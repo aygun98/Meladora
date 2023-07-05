@@ -39,6 +39,10 @@
     cursor: pointer;
 
 }
+.button-fabars-icon{
+    background-color: transparent;
+ border: none;
+}
 .fabars-icon{
     color: var(--primary1);
     display: none;

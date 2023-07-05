@@ -1,0 +1,27 @@
+.swiper-conatiner{
+    padding: 100px 0 ;
+}
+.swiperlist{
+    background-color: rgb(153, 103, 103);
+    /* width: 352px;
+    height: 250px; */
+}
+.swiperlist div{
+    position: relative;
+    /* display: flex; */
+    width: 352px;
+    height: 250px;
+}
+.desing1, .desing2{
+    position: absolute;
+    /* width: 100%;
+    height: 100%; */
+   
+}
+.desing2{
+    position: relative;
+    z-index: 1;
+    /* top: 0; */
+    right: 0;  
+    background-color: aqua;
+}

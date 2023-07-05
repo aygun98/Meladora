@@ -1,9 +1,109 @@
+.overlaymenu-background{
+    background-color: rgba(0, 0, 0, 0.507);
+    position: fixed;
+    z-index: 9;
+    width: 0%;
+    height: 100vh;
 
-.offcanvas{
+}
+.backaktiv{
+width: 100%;
+}
+
+
+.overlaymenu-logo{
+    background-image:  url(https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688380863/logo_fjtoqm.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 114px;
+    height: 45px;
+    display: inline-block;
+    object-fit: cover; 
+  
+}
+
+.overlaymenu{
+    background-color: var(--primary2);
+    position: fixed;
+    width: 0;
+    height: 100vh;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    /* padding: 20px 10px; */
+    overflow-x: hidden;
+    transition: 1s;
+}
+.overlaymenu-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.overlaymenu-button-x-mark{
+    background-color: var(--primary1);
+    /* color: white; */
+    border: none;
+    border-radius: 50px;
+    padding: 5px;
+    transition: 500ms ease-in-out;
+}
+.overlaymenu-kontainer-links{
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    padding-left: 20px;
+}
+.overlaymenu-nav-item{
+    text-decoration: none;
+}
+
+.overlaymenu-nav-link{
+    display: inline-block;
+    text-decoration: none;
+    color: var(--primary1);
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.overlaymenu-nav-link:hover{
+    background-color: var(--primary1);
+    color: white;
+    display: inline-block;
+    
+}
+
+.menu-xmark{
+    color: white;
+    font-size: 30px;
+    transition: 500ms;
+}
+.overlaymenu-button-x-mark:focus, .overlaymenu-button-x-mark:hover{
+    background-color: #fff;
+   
+}
+.menu-xmark:focus, .menu-xmark:hover{
+   color: var(--primary1);
+   
+   
+}
+.aktive{
+    width: 50%;
+    /* max-width: 400px; */
+}
+
+
+
+
+/* .offcanvas{
     background-color: var(--primary2);
 }
 
-.offcanvas-kontainer-links{
+.overlaymenu-kontainer-links{
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -40,10 +140,12 @@
     width: 100%;
     padding: 10px 10px;
     border-radius: 10px;
-    /* font-size: 16px; */
+    /* font-size: 16px; 
 }
+
 .offcanvas-nav-item a:hover{
     background-color: var(--primary1);
     color: white;
 
-}
+} 
+*/
