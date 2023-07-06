@@ -2,31 +2,37 @@
     {
         "desing1" : "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688491717/desing1_zt6xoj.png",
         "desing2" : "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688491720/desin2_elqkxd.png",
-        "title" : "Meyvələr"
+        "title" : "Meyvələr",
+        "backgraund" : "#1a5221"
     },
     {
         "desing1" : "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688491718/desing3_zcblkg.png",
         "desing2" : "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688491719/desing4_vepbua.png",
-        "title" : "Tərəvəzlər"
+        "title" : "Tərəvəzlər",
+        "backgraund" : "#91b40d"
     },
     {
         "desing1" : "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688491717/desing1_zt6xoj.png",
         "desing2" : "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688491719/desin5_jhhmro.png",
-        "title" : "Taxıllar"
+        "title" : "Taxıllar",
+        "backgraund" : "#ffbf00"
     },
     {
         "desing1" : "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688491717/desing1_zt6xoj.png",
         "desing2" : "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688491720/desin2_elqkxd.png",
-        "title" : "Meyvələr"
+        "title" : "Meyvələr",
+        "backgraund" : "#1a5221"
     },
     {
         "desing1" : "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688491718/desing3_zcblkg.png",
         "desing2" : "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688491719/desing4_vepbua.png",
-        "title" : "Tərəvəzlər"
+        "title" : "Tərəvəzlər",
+        "backgraund" : "#91b40d"
     },
     {
         "desing1" : "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688491717/desing1_zt6xoj.png",
         "desing2" : "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688491719/desin5_jhhmro.png",
-        "title" : "Taxıllar"
+        "title" : "Taxıllar",
+        "backgraund" : "#ffbf00"
     }
 ]

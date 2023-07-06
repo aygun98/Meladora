@@ -1,16 +1,15 @@
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Header from './components/Header';
-import SwiperFruits from './components/SwiperFruits';
+import Home from './components/Home';
 
 
 
 function App() {
   return (
     <>
-<Header/>
-<SwiperFruits/>
+
+<Home/>
 
     </>
   );

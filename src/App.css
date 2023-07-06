@@ -3,12 +3,14 @@
  :root{
   --fonts:'Poppins', sans-serif;
   --primary1:#91b40d;
-  --primary2:#212529
+  --primary2:#212529;
+  --bg-primary:#f5f5f5;
  }
  
  *{
   box-sizing: border-box;
   font-family: var(--fonts);
+  outline: 1px solid rgb(109, 109, 10);
 }
 body{
   margin: 0;

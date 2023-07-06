@@ -1,13 +1,15 @@
 import React from 'react'
 import './css/Navbar.css'
-import Offcanvas from './Offcanvas'
-import OffcanvasSearch from './OffcanvasSearch'
+import NavbarHeader from './NavbarHeader'
 import { FaBars } from 'react-icons/fa'
 import { BiSearchAlt } from 'react-icons/bi'
+
 
 const Navbar = ( {handleOpenMenu, handleOpenSearch}) => {  
     
     return (
+        <>
+        <NavbarHeader/>
         <nav className='container navbar-conatiner'>
             <a className="navbar-brand" href="#"></a>
             <div className='nav-links-contain'>
@@ -39,6 +41,7 @@ const Navbar = ( {handleOpenMenu, handleOpenSearch}) => {
             {/* <OffcanvasSearch/> */}
             </div>
         </nav>
+        </>
     )
 }
 

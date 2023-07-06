@@ -29,13 +29,27 @@ const SwiperFruits = () => {
         pagination={{
           clickable: true,
         }}
+        breakpoints={{
+          200: {
+            slidesPerView: 1 ,
+            spaceBetween: 20,
+          },
+          1040: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          1200: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+        }}
         modules={[Pagination, Autoplay]}
-        className="mySwiper"
+        className="mySwiper  mySwiper-fruits"
       >
         {
             SwiperFruitsjson.map(fruit=>(
 
-                <SwiperSlide className='swiperlist' ><div className='swiperlist-div'><span>{fruit.title}</span><img className='desing1' src={fruit.desing1} alt="" /> <img className='desing2' src={fruit.desing2} alt="" /></div></SwiperSlide>
+                <SwiperSlide className='swiperlist' ><div className='container swiperlist-div' style={{backgroundColor: fruit.backgraund }}><span >{fruit.title}</span><img className='desing1' src={fruit.desing1} alt="" /> <img className='desing2' src={fruit.desing2} alt="" /></div></SwiperSlide>
             ))
 
         }
