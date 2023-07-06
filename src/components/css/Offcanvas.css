@@ -2,12 +2,15 @@
     background-color: rgba(0, 0, 0, 0.507);
     position: fixed;
     z-index: 9;
-    width: 0%;
+    width: 0;
+   top: 0;
     height: 100vh;
 
 }
 .backaktiv{
+    
 width: 100%;
+
 }
 
 
@@ -31,11 +34,12 @@ width: 100%;
     z-index: 9999;
     top: 0;
     left: 0;
+
     display: flex;
     flex-direction: column;
     gap: 50px;
     /* padding: 20px 10px; */
-    overflow-x: hidden;
+    overflow: hidden;
     transition: 1s;
 }
 .overlaymenu-header{
@@ -67,6 +71,7 @@ width: 100%;
     color: var(--primary1);
     padding: 15px;
     width: 100%;
+    
     height: 100%;
     border-radius: 10px;
 }
@@ -93,59 +98,10 @@ width: 100%;
 }
 .aktive{
     width: 50%;
-    /* max-width: 400px; */
+ 
+
 }
 
 
 
 
-/* .offcanvas{
-    background-color: var(--primary2);
-}
-
-.overlaymenu-kontainer-links{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin: 0;
-    padding: 0;
-}
-
-
-.offcanvas-logo{
-    background-image: url(https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688380863/logo_fjtoqm.png);
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   width: 114px;
-   height: 45px;
-   display: inline-block;
-   object-fit: cover;
-}
-.btn-close{
-    background-color: var(--primary1);
-    font-weight: 700;
-}
-.offcanvas-body{
-    padding-top: 40px;
-}
-.offcanvas-nav-item{
-    list-style: none;
-}
-.offcanvas-nav-item a{
-    text-decoration: none;
-    color: var(--primary1);
-    font-weight: 500;
-    display: inline-block;
-    width: 100%;
-    padding: 10px 10px;
-    border-radius: 10px;
-    /* font-size: 16px; 
-}
-
-.offcanvas-nav-item a:hover{
-    background-color: var(--primary1);
-    color: white;
-
-} 
-*/

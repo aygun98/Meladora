@@ -44,7 +44,7 @@ const SwiperFruits = () => {
           },
         }}
         modules={[Pagination, Autoplay]}
-        className="mySwiper"
+        className="mySwiper  mySwiper-fruits"
       >
         {
             SwiperFruitsjson.map(fruit=>(

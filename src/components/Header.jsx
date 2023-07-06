@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 
 import './css/Header.css'
 import Navbar from './Navbar'
-import NavbarHeader from './NavbarHeader'
 import Offcanvas from './Offcanvas'
 import OffcanvasSearch from './OffcanvasSearch'
 
@@ -17,7 +16,6 @@ const Header = () => {
   // const handleToggleMenu = () => setShowMenu(!showMenu)
   return (
     <header className=' header-container'>
-        <NavbarHeader/>
         <Navbar handleOpenMenu={handleOpenMenu} handleOpenSearch={handleOpenSearch}/>
         <div className={`searchmenu ${showSearch ?  ' searchmenu-aktive' : ''}  `}>
      <OffcanvasSearch handleCloseSearch={handleCloseSearch}/>
