@@ -14,7 +14,7 @@ import { Pagination, Autoplay } from 'swiper/modules';
 const SectionBaglarimiz = () => {
     return (
         <div className='swiper-baglarimiz-container'>
-      <h1>Bağlarımız</h1>
+      <h1 className='text-center'>Bağlarımız</h1>
       <div className='section-about-right-desing1 mb-5'></div>
             <Swiper
                 slidesPerView={3}
