@@ -1,9 +1,15 @@
 import React, { useEffect, useState } from 'react'
 import './css/SectionMehsullar.css'
+//
+// import ModalMehsullar from '../data/ProductData'
 import { productArr, productCategories } from '../data/ProductData'
-import Yarmaqicon from './svg/yarpaqicon.svg'
+import Yarpaqicon from './svg/yarpaqicon.svg'
+import ModalQutuMehsullar from './ModalQutuMehsullar'
 
 const SectionMehsullar = () => {
+    //modal qutu
+    const [openQutuMehsul, setOpenQutuMehsul] =useState(false)
+    //
     const [categoryID, setCategoryID] = useState(0);
     const [products, setProducts] = useState([]);
     const handleProductButton = (categoryID) => {
@@ -20,7 +26,20 @@ const SectionMehsullar = () => {
         }
 
     },[categoryID])
+
+
+// modal qutu acilimi
+
+const [selectedProduct, setSelectedProduct] = useState(null);
+function openModal(product){
+    setOpenQutuMehsul(true)
+    setSelectedProduct(product)
+}
+    
     return (
+        <>
+       
+       
         <div className='sectionmehsullar'>
             <h1 className='text-center'>Məhsullarımız</h1>
       <div className='section-about-right-desing1 mb-5'></div>
@@ -28,6 +47,7 @@ const SectionMehsullar = () => {
                 
                 <div className="product-buttons pb-3">
                     <button className={categoryID === 0 ? 'active' : 'bg-back-white'} onClick={() => handleProductButton(0)}>Hamısı</button>
+               
                     {
                         productCategories.length > 0 ? (
                             productCategories.map(category => (
@@ -40,13 +60,13 @@ const SectionMehsullar = () => {
                 {
                     products.length > 0 ? (
                         products.map(product => (
-                            <div className="product-card" key={product.id}>
-                                <img src={Yarmaqicon} alt="" />
+                            <div className="product-card" key={product.id}   onClick={() => {openModal(product)}}>
+                                <img src={Yarpaqicon} alt="" />
                                 <div>
                                     <img src={product.image} alt="" />
                                 </div>
                                 <h4>{product.name}</h4>
-                                <span>{product.qiymet.toFixed(2)} &#8380; </span>
+                                <span>{product.price.toFixed(2)} &#8380; </span>
                             </div>
                         ))
                     ) : null
@@ -55,6 +75,9 @@ const SectionMehsullar = () => {
             </div>
 
         </div>
+        {openQutuMehsul && <ModalQutuMehsullar modalQutuClose={setOpenQutuMehsul} selectedProduct={selectedProduct}/>}
+       
+        </>
     )
 }
 

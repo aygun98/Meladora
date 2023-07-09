@@ -27,7 +27,10 @@ const Sectionhaqqinda = () => {
                     <div className='section-about-right-desing3 d-flex justify-content-evenly'>
                         {SectionhaqqindaData.map(melumat =>
 
-                            <div className='section-about-right-desing-list'> <span><img src={melumat.desing} alt="" /></span> <p>{melumat.tema}</p> </div>
+                            <div className='section-about-right-desing-list'>
+                                 <span><img src={melumat.desing} alt="" /></span> 
+                                 <p>{melumat.tema}</p> 
+                                 </div>
                         )}
 
                     </div>

@@ -49,7 +49,10 @@ const SwiperFruits = () => {
         {
             SwiperFruitsjson.map(fruit=>(
 
-                <SwiperSlide className='swiperlist' ><div className='container swiperlist-div' style={{backgroundColor: fruit.backgraund }}><span >{fruit.title}</span><img className='desing1' src={fruit.desing1} alt="" /> <img className='desing2' src={fruit.desing2} alt="" /></div></SwiperSlide>
+                <SwiperSlide className='swiperlist' ><div className='container swiperlist-div' style={{backgroundColor: fruit.backgraund }}>
+                  <span >{fruit.title}</span><img className='desing1' src={fruit.desing1} alt="" /> 
+                  <img className='desing2' src={fruit.desing2} alt="" /></div>
+                  </SwiperSlide>
             ))
 
         }
