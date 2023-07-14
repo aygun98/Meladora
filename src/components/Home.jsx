@@ -4,17 +4,23 @@ import SwiperFruits from './SwiperFruits'
 import Sectionhaqqinda from './Sectionhaqqinda'
 import SectionBaglarimiz from './SectionBaglarimiz'
 import SectionMehsullar from './SectionMehsullar'
-import ModalQutuMehsullar from './ModalQutuMehsullar'
+import SectionXidmetler from './SectionXidmetler'
+import SectionBlog from './SectionBlog'
+import SectionGalery from './SectionGalery'
+import Footer from './Footer'
 
 const Home = () => {
   return (
     <>
-    <Header/>
-    <SwiperFruits/>
-   <Sectionhaqqinda/>
-   <SectionBaglarimiz/>
-   <SectionMehsullar/>
-   {/* <ModalQutuMehsullar/> */}
+      <Header />
+      <SwiperFruits />
+      <Sectionhaqqinda />
+      <SectionBaglarimiz />
+      <SectionMehsullar />
+      <SectionXidmetler />
+      <SectionBlog/>
+      <SectionGalery/>
+      <Footer/>
     </>
   )
 }

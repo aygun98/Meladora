@@ -1,16 +1,37 @@
+
+
 .navbar-conatiner{
-    position: relative;
-    z-index: 2;
+
+    /* background-color: transparent; */
+    /* position: sticky; */
+    /* position: sticky;
+    left: 0;
+    top: 0;
+    right: 0; */
+    
     display: flex;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 15px 109px 35px;
+    
+    /* margin: 0; */
+    /* width: 100vw; */
+   
+}
+@media (max-width:991px) {
+    .navbar-conatiner{
+        padding: 15px 50px;
+    }
+}
+.navbar-conatiner-relative{
+    position: relative;
+    z-index: 6;
 }
 
 .navbar-brand{
-    background-image: url(https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688380863/logo_fjtoqm.png);
+    /* background-image: url(https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688380863/logo_fjtoqm.png);
    background-position: center;
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: cover; */
    width: 114px;
    height: 45px;
    display: inline-block;
@@ -22,6 +43,13 @@
     transition: none;
     margin-right: 5px;
 }
+.second-nav-link{
+    color: var(--primary2);
+    font-weight: 600;
+    transition: none;
+    margin-right: 5px;
+
+}
 .nav-link:hover, .nav-link:focus{
     background-color: var(--primary1);
     color: white;
@@ -29,13 +57,19 @@
     
 
 }
+.second-nav-link:hover, .second-nav-link:focus{
+    background-color: var(--primary1);
+    color: white;
+    border-radius: 10px;
+}
 .nav-links-contain{
     display: flex;
-    /* justify-content: space-between; */
+     justify-content: center;
+     align-items: center;
 }
 .searchimg{
     color: var(--primary1);
-    font-size: 35px;
+    font-size: 36px;
     cursor: pointer;
 
 }
@@ -46,9 +80,12 @@
 .fabars-icon{
     color: var(--primary1);
     display: none;
-    font-size: 33px;
+    font-size: 30px;
 }
-
+.fixed-top{
+    background-color: var(--primary2);
+    padding-bottom: 10px;
+}
 
 @media (max-width:1200px) {
     .fabars-icon{

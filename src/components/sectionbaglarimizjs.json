@@ -3,49 +3,43 @@
       "index":"01",
       "movzu":"Bağ",
       "haqqinda":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore quas soluta iusto nulla odit labore nobis culpa id quo saepe, rem numquam adipisci quaerat magnam nesciunt fugit, quia eum laboriosam?Lorem ipsum dolor sit...",
-      "sekil": "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688726124/baglarimiz3_hogjpe.png",
-      "klas" : "baglarimiz-swiperlist-container baglarimiz-img-top",
-      "klas2": "baglarimiz-swiperlist-top "
+      "sekil": "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688726124/baglarimiz3_hogjpe.png"
+      
      
     },
     {
       "index":"02",
       "movzu":"Bağ",
       "haqqinda":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore quas soluta iusto nulla odit labore nobis culpa id quo saepe, rem numquam adipisci quaerat magnam nesciunt fugit, quia eum laboriosam?Lorem ipsum dolor sit...",
-      "sekil": "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688726124/baglarimiz1_z1harj.png", 
-      "klas" : "baglarimiz-swiperlist-container baglarimiz-img-bottom",
-      "klas2": "baglarimiz-swiperlist-top baglarimiz-text-revers"
+      "sekil": "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688726124/baglarimiz1_z1harj.png"
+     
     },
     {
       "index":"03",
       "movzu":"Bağ",
       "haqqinda":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore quas soluta iusto nulla odit labore nobis culpa id quo saepe, rem numquam adipisci quaerat magnam nesciunt fugit, quia eum laboriosam?Lorem ipsum dolor sit...",
-      "sekil":"https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688726124/baglarimiz5_vcjypp.png",
-      "klas" : "baglarimiz-swiperlist-container baglarimiz-img-top",
-      "klas2": "baglarimiz-swiperlist-top "
+      "sekil":"https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688726124/baglarimiz5_vcjypp.png"
+      
     },
     {
       "index":"04",
       "movzu":"Bağ",
       "haqqinda":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore quas soluta iusto nulla odit labore nobis culpa id quo saepe, rem numquam adipisci quaerat magnam nesciunt fugit, quia eum laboriosam?Lorem ipsum dolor sit...",
-      "sekil":"https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688726124/baglarimiz2_uietxx.png",
-      "klas" : "baglarimiz-swiperlist-container baglarimiz-img-bottom",
-      "klas2": "baglarimiz-swiperlist-top baglarimiz-text-revers"
+      "sekil":"https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688726124/baglarimiz2_uietxx.png"
+     
     },
     {
       "index":"05",
       "movzu":"Bağ",
       "haqqinda":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore quas soluta iusto nulla odit labore nobis culpa id quo saepe, rem numquam adipisci quaerat magnam nesciunt fugit, quia eum laboriosam?Lorem ipsum dolor sit...",
-      "sekil":"https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688726124/baglarimiz6_yt8ql0.png",
-      "klas" : "baglarimiz-swiperlist-container baglarimiz-img-top",
-      "klas2": "baglarimiz-swiperlist-top "
+      "sekil":"https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688726124/baglarimiz6_yt8ql0.png"
+      
     },
     {
       "index":"06",
       "movzu":"Bağ",
       "haqqinda":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore quas soluta iusto nulla odit labore nobis culpa id quo saepe, rem numquam adipisci quaerat magnam nesciunt fugit, quia eum laboriosam?Lorem ipsum dolor sit...",
-      "sekil":"https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688726124/baglarimiz4_g7wec9.png",
-      "klas" : "baglarimiz-swiperlist-container baglarimiz-img-bottom",
-      "klas2": "baglarimiz-swiperlist-top baglarimiz-text-revers "
+      "sekil":"https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688726124/baglarimiz4_g7wec9.png"
+    
     }
 ]

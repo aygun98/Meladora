@@ -87,5 +87,6 @@
 }
 .active{
     background-color: var(--primary1);
-    color: #fff;
+    color: #fff !important;
+    border-radius: 10px;
 }

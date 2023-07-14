@@ -42,6 +42,21 @@ const ModalQutuMehsullar = ({modalQutuClose, selectedProduct}) => {
                         spaceBetween={30}
                         navigation={true}
                         modules={[Navigation]}
+                        breakpoints={{
+                            360: {
+                              slidesPerView: 1,
+                              spaceBetween: 10,
+                            },
+                            600: {
+                              slidesPerView: 2,
+                              spaceBetween: 10,
+                            },
+                            768: {
+                              slidesPerView: 3,
+                              spaceBetween: 10,
+                            }
+                            
+                          }}
                         className="mySwiper"
                     >
                        

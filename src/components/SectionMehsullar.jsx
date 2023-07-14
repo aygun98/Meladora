@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './css/SectionMehsullar.css'
+import SectionTitle from './SectionTitle'
 //
 // import ModalMehsullar from '../data/ProductData'
 import { productArr, productCategories } from '../data/ProductData'
@@ -7,8 +8,7 @@ import Yarpaqicon from './svg/yarpaqicon.svg'
 import ModalQutuMehsullar from './ModalQutuMehsullar'
 
 const SectionMehsullar = () => {
-    //modal qutu
-    const [openQutuMehsul, setOpenQutuMehsul] =useState(false)
+   
     //
     const [categoryID, setCategoryID] = useState(0);
     const [products, setProducts] = useState([]);
@@ -27,7 +27,8 @@ const SectionMehsullar = () => {
 
     },[categoryID])
 
-
+ //modal qutu
+ const [openQutuMehsul, setOpenQutuMehsul] =useState(false)
 // modal qutu acilimi
 
 const [selectedProduct, setSelectedProduct] = useState(null);
@@ -41,8 +42,9 @@ function openModal(product){
        
        
         <div className='sectionmehsullar'>
-            <h1 className='text-center'>Məhsullarımız</h1>
-      <div className='section-about-right-desing1 mb-5'></div>
+            {/* <h1 className='text-center'>Məhsullarımız</h1>
+      <div className='section-about-right-desing1 mb-5'></div> */}
+      <SectionTitle title='Məhsullarımız'/>
             <div className="container">
                 
                 <div className="product-buttons pb-3">

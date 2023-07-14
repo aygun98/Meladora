@@ -1,0 +1,22 @@
+.header-second-bottom{
+    position: relative;
+    width: 100%;
+    height: 340px;
+    margin-bottom:30px ;
+}
+.header-second-bottom-back{
+    background-image: url(https://res.cloudinary.com/dqhoi1bfi/image/upload/v1689336070/secondHeader_fhowzq.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+   
+}
+.header-second-bottom-icon{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    bottom: -70px;
+    right: 140px;
+}

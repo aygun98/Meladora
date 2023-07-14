@@ -1,0 +1,17 @@
+[
+    {
+        "cardimg": "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688986098/xidmet1_gloykv.png",
+        "cardtitle": "Damcı suvarma sistemləri",
+        "cardtext" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore quas soluta iusto nulla odit labore nobis culpa id quo saepe, rem numquam adipisci quaerat magn..."
+    },
+    {
+        "cardimg": "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688986098/xidmet2_i9c2cf.png",
+        "cardtitle": "Layihələndirmə",
+        "cardtext" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore quas soluta iusto nulla odit labore nobis culpa id quo saepe, rem numquam adipisci quaerat magn..."
+    },
+    {
+        "cardimg": "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688986098/xidmet3_gxxxdz.png",
+        "cardtitle": "Açar təslim bağların salınması",
+        "cardtext" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore quas soluta iusto nulla odit labore nobis culpa id quo saepe, rem numquam adipisci quaerat magn..."
+    }
+]

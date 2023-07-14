@@ -1,5 +1,6 @@
 import React from 'react'
 import './css/Sectionhaqqinda.css'
+import SectionTitle from './SectionTitle'
 import SectionhaqqindaData from './sectionhaqqindajs.json'
 const Sectionhaqqinda = () => {
     return (
@@ -8,8 +9,8 @@ const Sectionhaqqinda = () => {
                 <div className="section-about-left col-xl-4   col-sm-12 col-12"></div>
                 <div className="section-about-right col-xl-8 col-sm-12  col-12 d-flex flex-column align-items-center justify-content-between pt-4">
                     <div className="backgraund-logo"></div>
-                    <h1 className="section-about-right-header">Biz Kimik?</h1>
-                    <div className="section-about-right-desing1"></div>
+                  
+                    <SectionTitle title='Biz Kimik?'/>
                     <p className="section-about-right-text">
                         Əslində hər şey illər əvvəl İsmayıllı rayonunda
                         ailəvi gəzintidə olduğumuz zaman baş verdi. İsmayıllı rayonunun

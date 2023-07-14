@@ -1,12 +1,13 @@
 .overlaymenu-background{
     background-color: rgba(0, 0, 0, 0.507);
     position: fixed;
-    z-index: 9;
+    z-index: 9999;
     width: 0;
    top: 0;
     height: 100vh;
 
 }
+
 .backaktiv{
     
 width: 100%;
@@ -15,10 +16,10 @@ width: 100%;
 
 
 .overlaymenu-logo{
-    background-image:  url(https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688380863/logo_fjtoqm.png);
+    /* background-image:  url(https://res.cloudinary.com/dqhoi1bfi/image/upload/v1688380863/logo_fjtoqm.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     width: 114px;
     height: 45px;
     display: inline-block;
@@ -27,20 +28,31 @@ width: 100%;
 }
 
 .overlaymenu{
-    background-color: var(--primary2);
+    /* background-color: var(--primary2); */
     position: fixed;
     width: 0;
     height: 100vh;
-    z-index: 9999;
+    z-index: 99999;
     top: 0;
     left: 0;
 
     display: flex;
     flex-direction: column;
     gap: 50px;
-    /* padding: 20px 10px; */
+    
     overflow: hidden;
     transition: 1s;
+}
+.overlaymenu-kontainer{
+    background-color: var(--primary2);
+   height: 100%;
+    
+}
+.overlaymenu-kontainer-second{
+    background-color: #fff;
+    height: 100%;
+   
+    
 }
 .overlaymenu-header{
     display: flex;
@@ -59,7 +71,8 @@ width: 100%;
     display: flex;
     flex-direction: column;
     /* gap: 20px; */
-    padding-left: 20px;
+    /* padding-left: 20px; */
+    padding: 0 20px;
 }
 .overlaymenu-nav-item{
     text-decoration: none;
@@ -97,7 +110,7 @@ width: 100%;
    
 }
 .aktive{
-    width: 50%;
+    width: 70%;
  
 
 }
