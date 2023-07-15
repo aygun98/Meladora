@@ -2,6 +2,7 @@ import React from 'react'
 import HeaderSecond from '../HeaderSecond'
 import Sectionhaqqinda from '../Sectionhaqqinda'
 import SectionGalery from '../SectionGalery'
+import FooterSecond from '../FooterSecond'
 
 
 const BizKimik = () => {
@@ -10,6 +11,7 @@ const BizKimik = () => {
       <HeaderSecond/>
       <Sectionhaqqinda/>
       <SectionGalery/>
+      <FooterSecond/>
       </>
   )
 }

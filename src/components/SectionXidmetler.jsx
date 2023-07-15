@@ -6,7 +6,7 @@ import Xidmetcardjson from './XidmetlerCard.json'
 
 const SectionXidmetler = () => {
     return (
-        <div className='section-xidmetler '>
+        <div className='section-xidmetler container'>
             <SectionTitle title='Xidmətlərimiz' />
 
 

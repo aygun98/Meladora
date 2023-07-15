@@ -7,7 +7,7 @@ import SectionMehsullar from './SectionMehsullar'
 import SectionXidmetler from './SectionXidmetler'
 import SectionBlog from './SectionBlog'
 import SectionGalery from './SectionGalery'
-import Footer from './Footer'
+import FooterOne from './FooterOne'
 
 const Home = () => {
   return (
@@ -20,7 +20,7 @@ const Home = () => {
       <SectionXidmetler />
       <SectionBlog/>
       <SectionGalery/>
-      <Footer/>
+      <FooterOne/>
     </>
   )
 }

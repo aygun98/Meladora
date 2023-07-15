@@ -1,11 +1,11 @@
 .section-galery{
-    padding: 30px 100px 50px;
+    padding: 30px 0 50px;
 }
-@media (max-width:500px) {
+/* @media (max-width:500px) {
     .section-galer{
         padding: 30px 20px;
     }
-}
+} */
 .section-galery-container{
     gap: 20px;
 }

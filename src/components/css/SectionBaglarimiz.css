@@ -1,16 +1,13 @@
 .swiper-baglarimiz-container{
    
    
-    padding: 100px;
-    /* background-color: aqua; */
+    padding: 100px 0;
+    
 }
-/* .swiper-baglarimiz-container>h1{
-    text-align: center;
-    font-weight: 600;
-} */
+
 .section-about-right-desing1{
     margin: 0 auto;
-    /* width: 100%; */
+   
 }
 .mySwiper-baglarimiz{
     height: 860px;
@@ -28,12 +25,18 @@
 }
 
 .baglarimiz-swiperlist-top{
+   
     width: 360px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+@media (max-width:360px) {
+    .baglarimiz-swiperlist-top{
+        width: 100%;
+    }
+}
 
 .baglarimiz-swiperlist-container{
     
@@ -70,11 +73,11 @@
     height: 100%;
     object-fit: cover;
 }
-@media (max-width:568px) {
+/* @media (max-width:568px) {
     .swiper-baglarimiz-container{
    
    
-        padding: 100px 6px;
-        /* background-color: aqua; */
+        padding: 100px 0px;
+        
     }
-}
+} */

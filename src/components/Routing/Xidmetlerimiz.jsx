@@ -1,8 +1,14 @@
 import React from 'react'
+import HeaderSecond from '../HeaderSecond'
 
+import FooterSecond from '../FooterSecond'
 const Xidmetlerimiz = () => {
   return (
-    <div>Xidmetlerimiz</div>
+    <>
+     <HeaderSecond/>
+      
+      <FooterSecond/>
+    </>
   )
 }
 

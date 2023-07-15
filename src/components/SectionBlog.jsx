@@ -12,7 +12,7 @@ import Blogdata from './SectionBlogjson.json'
 import { Autoplay, Pagination } from 'swiper/modules';
 const SectionBlog = () => {
     return (
-        <div className='section-blog-container ' >
+        <div className='section-blog-container container' >
             <SectionTitle title='Bloglar' />
             <div className='section-blog'>
                 <Swiper
@@ -26,7 +26,7 @@ const SectionBlog = () => {
                         disableOnInteraction: false,
                     }}
                     breakpoints={{
-                        260: {
+                        250: {
                             slidesPerView: 1,
                             spaceBetween: 10,
                         },

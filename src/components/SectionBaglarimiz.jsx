@@ -14,7 +14,7 @@ import { Pagination, Autoplay } from 'swiper/modules';
 
 const SectionBaglarimiz = () => {
     return (
-        <div className='swiper-baglarimiz-container'>
+        <div className='swiper-baglarimiz-container container'>
 
             <SectionTitle title='Bağlarımız' />
             <Swiper
@@ -28,11 +28,11 @@ const SectionBaglarimiz = () => {
                     clickable: true,
                 }}
                 breakpoints={{
-                    200: {
+                    250: {
                         slidesPerView: 1,
                         spaceBetween: 20,
                     },
-                    1040: {
+                    1000: {
                         slidesPerView: 2,
                         spaceBetween: 20,
                     },

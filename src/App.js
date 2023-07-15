@@ -10,9 +10,8 @@ import Mehsullarimiz from './components/Routing/Mehsullarimiz';
 import Xidmetlerimiz from './components/Routing/Xidmetlerimiz';
 import SosialMesuliyyet from './components/Routing/SosialMesuliyyet';
 import Elaqe from './components/Routing/Elaqe';
-// import Navbar from './components/Navbar';
-// import NavbarSistemi from './components/NavbarSistemi';
-import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
+
 
 
 
@@ -22,7 +21,7 @@ function App() {
   return (
     <>
 <BrowserRouter>
-{/* <NavbarSistemi/> */}
+<ScrollToTop/>
 <Routes>
 <Route path='/' element={<Home/>}/>
 <Route path='/bizkimik' element={<BizKimik/>}/>
@@ -34,7 +33,7 @@ function App() {
 <Route path='/elaqe' element={<Elaqe/>}/>
 
 </Routes>
-{/* <Footer/> */}
+<ScrollToTop/>
 </BrowserRouter>
 
 

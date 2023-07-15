@@ -1,8 +1,14 @@
 import React from 'react'
+import HeaderSecond from '../HeaderSecond'
+import SectionMehsullar from '../SectionMehsullar'
+import FooterSecond from '../FooterSecond'
 
 const Mehsullarimiz = () => {
   return (
-    <div>Mehsullarimiz</div>
+    <>
+      <HeaderSecond/>
+     <SectionMehsullar/>
+      <FooterSecond/></>
   )
 }
 

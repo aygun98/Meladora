@@ -12,7 +12,7 @@ Fancybox.bind("[data-fancybox]", {
 
 const SectionGalery = () => {
     return (
-        <div className='section-galery'>
+        <div className='section-galery container'>
             <SectionTitle title='Qalereya' />
             <div className='section-galery-container d-flex  flex-wrap justify-content-center'>
                 {

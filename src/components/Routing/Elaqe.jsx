@@ -1,8 +1,15 @@
 import React from 'react'
+import HeaderSecond from '../HeaderSecond'
+
+import FooterSecond from '../FooterSecond'
 
 const Elaqe = () => {
   return (
-    <div>Elaqe</div>
+    <>
+    <HeaderSecond/>
+     
+     <FooterSecond/>
+   </>
   )
 }
 
